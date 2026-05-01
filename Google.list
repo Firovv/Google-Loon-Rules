@@ -1,0 +1,30 @@
+# ===== Google 全家桶及 AI 专用稳定策略 (通用版) =====
+# 核心 AI 与鉴权
+DOMAIN-SUFFIX,gemini.google.com,PROXY
+DOMAIN-SUFFIX,aistudio.google.com,PROXY
+DOMAIN-SUFFIX,ai.google.dev,PROXY
+DOMAIN-SUFFIX,generativelanguage.googleapis.com,PROXY
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com,PROXY
+DOMAIN-SUFFIX,accounts.google.com,PROXY
+
+# 基础 Google 生态
+DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+DOMAIN-SUFFIX,googleusercontent.com,PROXY
+DOMAIN-SUFFIX,ggpht.com,PROXY
+
+# 服务与工具
+DOMAIN-SUFFIX,play.googleapis.com,PROXY
+DOMAIN-SUFFIX,android.clients.google.com,PROXY
+DOMAIN-SUFFIX,gmail.com,PROXY
+DOMAIN-SUFFIX,voice.google.com,PROXY
+DOMAIN-SUFFIX,hangouts.google.com,PROXY
+
+# 风控与同步
+DOMAIN-SUFFIX,safebrowsing.googleapis.com,PROXY
+DOMAIN-SUFFIX,siftscience.com,PROXY
+DOMAIN-SUFFIX,recaptcha.net,PROXY
+DOMAIN-SUFFIX,fcm.googleapis.com,PROXY
+DOMAIN-SUFFIX,mtalk.google.com,PROXY
+DOMAIN-SUFFIX,1e100.net,PROXY
